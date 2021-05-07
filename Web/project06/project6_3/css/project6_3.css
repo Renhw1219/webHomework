@@ -1,0 +1,110 @@
+/*--------------------整体--------------------*/
+body {
+    background: #e1e1e1;
+}
+
+.g-project6_3 {
+    width: 1250px;
+    height: 820px;
+    margin: 50px 0 0 50px;
+    background: rgb(242, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.m-box {
+    width: 388px;
+    height: 370px;
+    margin: 20px 0 20px 20px;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.u-img {
+    width: 388px;
+    height: 259px;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid #e1e1e1;
+    background: rgb(255, 255, 235);
+}
+
+.u-box_btm {
+    width: 388px;
+    height: 110px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.u-title {
+    width: 368px;
+    height: 18px;
+    margin: 0 0 5px 9px; 
+}
+
+.u-con {
+    width: 368px;
+    height: 18px;
+    color: #b2b2b2;
+    margin: 0 0 5px 9px;
+}
+
+.u-gift {
+    width: 12px;
+}
+
+.u-sale {
+    width: 368px;
+    height: 40px;
+    margin: 5px 0 0 9px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.u-price {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.u-price > span:nth-child(1) {
+    font-size: 20px;
+    margin: 0 0 2px 0;
+}
+
+.u-price > span:nth-child(2) {
+    font-size: 35px;
+    margin: 0 0 0 0;
+    line-height: 40px;
+} 
+
+.u-price > span:nth-child(3) {
+    margin: 0 0 0 4px;
+    color: #b2b2b2;
+    text-decoration: line-through;
+}
+
+.u-sal_num {
+    margin: 0 10px 0 0;
+}
+
+.u-fire {
+    width: 18px;
+}
+
+.u-sal_num > span:nth-child(2){
+    font-weight: bold;
+}
+
+.s-red {
+    color: #f00;
+}
+
+.u-sal_num > span:nth-child(3) {
+    color: #b2b2b2;
+}

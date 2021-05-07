@@ -1,0 +1,275 @@
+/*--------------------整体--------------------*/
+body {
+    background: #e1e1e1;
+}
+
+.g-project6 {
+    width: 1500px;
+    height: 2000px;
+    background: rgb(153, 189, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*-------------------作业一-------------------*/
+.g-project6_1 {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+    background: rgb(205, 211, 245);
+}
+
+.m-box_hd, .m-box_bt  {
+    margin: 20px 0 0 20px;
+    width: 760px;
+    height: 120px;
+    background: rgb(153, 189, 144);
+    border: 1px solid #000;
+}
+.m-box_bt {
+    height: 420px;
+}
+
+/*--------------------第一部分------------------*/
+.m-box_hd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.m-box_hd span {
+    width: 78px;
+    height: 78px;
+    margin: 0 20px 0 20px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}
+.m-box_hd span:nth-child(5) {
+    margin-left: 180px;
+}
+
+/*--------------------第二部分------------------*/
+.m-box_bt {
+    display: flex;
+    justify-content: space-between;
+}
+/*左*/
+.u-box_left {
+    width: 198px;
+    height: 368px;
+    margin: 20px 0 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.u-box_left span {
+    width: 48px;
+    height: 48px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}
+
+.u-box_left span:nth-child(1) {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/*右*/
+.u-box_right {
+    width: 480px;
+    height: 370px;
+    display: flex;
+    margin: 20px 20px 0 0;
+    flex-wrap: wrap;
+}
+
+.u-box_right span {
+    width: 480px;
+    height: 38px;
+    margin-bottom: 15px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}
+
+
+/*-------------------作业二-------------------*/
+.g-project6_2 {
+    width: 390px;
+    height: 370px;
+    border: 1px solid #000;
+    background: rgb(205, 211, 245);
+}
+
+.g-project6_2 .m-img {
+    width: 390px;
+    height: 259px;
+    border-bottom: 1px solid #000;
+    background: rgb(255, 255, 235);
+}
+
+.g-project6_2 .m-box_btm {
+    width: 390px;
+    height: 110px;
+    background: rgb(255, 230, 244);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.g-project6_2 .m-box_btm > span {
+    width: 358px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    border: 1px solid #000;
+    margin: 0 0 10px 10px; 
+    background: #fff;
+}
+
+.g-project6_2 .m-box_btm > span:nth-child(2) {
+    color: #ff0000;
+}
+
+.g-project6_2 .u-price {
+    width: 358px;
+    height: 28px;
+    border: 1px solid #000;
+    margin: 0 0 0 10px; 
+    padding-left: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.g-project6_2 .u-price span:nth-child(1) {
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: bold;
+} 
+
+.g-project6_2 .u-price span:nth-child(2) {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    text-decoration: line-through;
+    align-self: flex-end;
+}
+
+.g-project6_2 .u-price span:nth-child(3) {
+    font-size: 12px;
+    margin-left: 130px;
+    margin-bottom: 2px;
+    align-self: flex-end;
+}
+
+/*-------------------作业三-------------------*/
+.g-project6_3 {
+    width: 1250px;
+    height: 820px;
+    background: rgb(242, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.g-project6_3 .m-box {
+    width: 388px;
+    height: 370px;
+    margin: 20px 0 20px 20px;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.g-project6_3 .u-img {
+    width: 388px;
+    height: 259px;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid #e1e1e1;
+    background: rgb(255, 255, 235);
+}
+
+.g-project6_3 .u-box_btm {
+    width: 388px;
+    height: 110px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.g-project6_3 .u-title {
+    width: 368px;
+    height: 18px;
+    margin: 0 0 5px 9px; 
+}
+
+.g-project6_3 .u-con {
+    width: 368px;
+    height: 18px;
+    color: #b2b2b2;
+    margin: 0 0 5px 9px;
+}
+
+.g-project6_3 .u-gift {
+    width: 12px;
+}
+
+.g-project6_3 .u-sale {
+    width: 368px;
+    height: 40px;
+    margin: 5px 0 0 9px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.g-project6_3 .u-price {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.g-project6_3 .u-price > span:nth-child(1) {
+    font-size: 20px;
+    margin: 0 0 2px 0;
+}
+
+.g-project6_3 .u-price > span:nth-child(2) {
+    font-size: 35px;
+    margin: 0 0 0 0;
+    line-height: 40px;
+} 
+
+.g-project6_3 .u-price > span:nth-child(3) {
+    margin: 0 0 0 4px;
+    color: #b2b2b2;
+    text-decoration: line-through;
+}
+
+.g-project6_3 .u-sal_num {
+    margin: 0 10px 0 0;
+}
+
+.g-project6_3 .u-fire {
+    width: 18px;
+}
+
+.g-project6_3 .u-sal_num > span:nth-child(2){
+    font-weight: bold;
+}
+
+.g-project6_3 .s-red {
+    color: #f00;
+}
+
+.g-project6_3 .u-sal_num > span:nth-child(3) {
+    color: #b2b2b2;
+}

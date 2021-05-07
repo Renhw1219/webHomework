@@ -1,0 +1,86 @@
+/*--------------------整体--------------------*/
+body {
+    background: rgb(153, 189, 144);
+}
+
+.g-project6_1 {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+    background: rgb(205, 211, 245);
+}
+
+.m-box_hd, .m-box_bt  {
+    margin: 20px 0 0 20px;
+    width: 760px;
+    height: 120px;
+    background: rgb(153, 189, 144);
+    border: 1px solid #000;
+}
+.m-box_bt {
+    height: 420px;
+}
+
+/*--------------------第一部分------------------*/
+.m-box_hd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.m-box_hd span {
+    width: 78px;
+    height: 78px;
+    margin: 0 20px 0 20px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}
+.m-box_hd span:nth-child(5) {
+    margin-left: 180px;
+}
+
+
+/*--------------------第二部分------------------*/
+.m-box_bt {
+    display: flex;
+    justify-content: space-between;
+}
+/*左*/
+.u-box_left {
+    width: 198px;
+    height: 368px;
+    margin: 20px 0 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.u-box_left span {
+    width: 48px;
+    height: 48px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}
+
+.u-box_left span:nth-child(1) {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/*右*/
+.u-box_right {
+    width: 480px;
+    height: 370px;
+    display: flex;
+    margin: 20px 20px 0 0;
+    flex-wrap: wrap;
+}
+
+.u-box_right span {
+    width: 480px;
+    height: 38px;
+    margin-bottom: 15px;
+    background: rgb(205, 211, 245);
+    border: 1px solid #000;
+}

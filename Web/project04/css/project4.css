@@ -1,0 +1,373 @@
+/*--------------------整体--------------------*/
+.style0 {
+	width: 400px;
+	position: absolute;
+	left: 50%;
+    top: 50%;
+	transform:translate(-50%,-50%); 
+}
+
+#img1 {
+	z-index: -1;
+}
+
+#div1 {
+	height: 575px;
+	background: #f4f4f4;
+	z-index: 1;
+}
+
+.style1 {
+	position: absolute;
+	left: 50%;
+	width: 377px;
+	z-index: 2;
+	transform:translate(-50%); 
+}
+
+/*--------------------第一层------------------*/
+#div2 {
+	height: 70px;
+	margin-top: 10px;
+	background: #ffffff; 
+}
+.style2 {
+	position: absolute;
+	top: 8px;
+	left: 53px;
+	width: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fc4314;
+	border: 1px solid #ffffff;
+	z-index: 2; 
+}
+#span2 {
+	margin-left: 87px;
+}
+#span3 {
+	margin-left: 174px;
+}
+#span4 {
+	margin-left: 260px;
+}
+.style3 {
+	position: absolute;
+	top: 31px;
+	left: 37px;
+	width: 50px;
+	font-size: 15.5px;
+	
+	border: 1px solid #ffffff;
+	z-index: 2; 
+}
+#span5 {
+	margin-left: 86px;
+}
+#span6 {
+	margin-left: 173px;
+}
+#span7 {
+	margin-left: 260px;
+}
+/*--------------------第二层------------------*/
+#div3 {
+	height: 35px;
+	margin-top: 79px;
+	background: #ffe5de;
+}
+#p1 {
+	margin: 8.4px 0 0 40.5px; 
+	font-size: 15.7px;
+	color: #f64d30;
+	text-align: center;
+}
+
+/*--------------------第三层------------------*/
+#div4 {
+	height: 53px;
+	background: #ffffff;
+	margin-top: 115px;
+}
+.style4 {
+	position: absolute;
+	top: 20px;
+	left: 27px;
+	width: 40px;
+	font-size: 15.5px;
+	border: 1px solid #ffffff;
+	z-index: 2; 
+}
+#span3_2 {
+	margin-left: 71px;
+}
+#span3_3 {
+	margin-left: 142px;
+	font-weight: bold;
+}
+#span3_4 {
+	margin-left: 213px;
+}
+#span3_5 {
+	margin-left: 284px;
+}
+#span3_6 {
+	position: absolute;
+	top: 44px;
+	left: 165px;
+	width: 40px;
+	height: 1px;
+	background: #f84d22;
+	border: 1px solid #f84d22;
+}
+
+/*--------------------第四层------------------*/
+#div5 {
+	height: 90px;
+	margin-top: 169px;
+	background: #ffffff;
+}
+/*第一行*/
+.style5 {
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	width: 150px;
+	font-size: 15.5px;
+	color: #ff6730;
+	border: 1px solid #fff;
+	z-index: 2; 
+}
+#span4_2 {
+	font-size: 15.7px;
+	margin-left: 172px;
+}
+/*第二行*/
+.style6 {
+	position: absolute;
+	top: 45.5px;
+	left: 12px;
+	width: 150px;
+	font-size: 15.7px;
+	border: 1px solid #fff;
+	z-index: 2; 
+}
+#span4_4 {
+	margin-left: 172px;
+}
+
+/*--------------------第五层------------------*/
+#div6 {
+	height: 98px;
+	margin-top: 259px;
+	background: #ffffff;
+}
+#div5_1 {
+	position: absolute;
+	top: -1px;
+	left: -2px;
+	width: 90px;
+	height: 98px;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fb462b;
+	border-left: 2px solid #fb462b;
+	border-top: 2px solid #fb462b;
+	z-index: 2;
+	
+}
+#div5_2 {
+	position: absolute;
+	left: 93px;
+	top: -0.5px;
+	width: 94px;
+	height: 98px;
+	border-top: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+}
+#div5_3 {
+	position: absolute;
+	left: 189px;
+	top: -0.5px;
+	width: 94px;
+	height: 98px;
+	border-top: 2px solid #f2f2f2;
+}
+#div5_4 {
+	position: absolute;
+	left: 281px;
+	top: -0.5px;
+	width: 94px;
+	height: 98px;
+	border-top: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+}
+/*第一框*/
+#img5_1 {
+	position: absolute;
+	top: 15px;
+	left: 32px;
+	width: 27px;
+}
+#span5_1 {
+	position: absolute;
+	top: 57.4px;
+	left: 21px;
+	font-size: 15.6px;
+	width: 50px;
+	color: #fb4722;
+}
+/*第二框*/
+#img5_2 {
+	position: absolute;
+	top: 14px;
+	left: 25px;
+	width: 40px;
+}
+#span5_2 {
+	position: absolute;
+	top: 57px;
+	left: 31px;
+	font-size: 15.6px;
+	width: 50px;
+}
+/*第三框*/
+#img5_3 {
+	position: absolute;
+	top: 14px;
+	left: 30px;
+	width: 34px;
+}
+#span5_3 {
+	position: absolute;
+	top: 57px;
+	left: 31px;
+	font-size: 15.6px;
+	width: 50px;
+}
+/*第四框*/
+#img5_4 {
+	position: absolute;
+	top: 14px;
+	left: 32px;
+	width: 34px;
+}
+#span5_4 {
+	position: absolute;
+	top: 57.4px;
+	left: 33px;
+	font-size: 15.6px;
+	width: 50px;
+}
+
+
+/*--------------------第六层------------------*/
+#div7 {
+	height: 205px;
+	margin-top: 358px;
+	background: #ffffff;
+	border: 2px solid #fb462b;
+}
+/*第一部分*/
+.style8 {
+	height: 40px;
+}
+#span6_1 {
+	position: absolute;
+	left: 31px;
+	top: 11.5px;
+}
+#span6_2 {
+	position: absolute;
+	left: 110px;
+	top: 11.5px;
+}
+#span6_3 {
+	position: absolute;
+	left: 189px;
+	top: 11.5px;
+}
+#span6_4 {
+	position: absolute;
+	left: 267px;
+	top: 11.5px;
+}
+#span6_5 {
+	position: absolute;
+	left: 356px;
+	top: 0px;
+	font-size: 21px;
+	color: #919191;
+}
+/*第二部分*/
+#div6_1 {
+	position: absolute;
+	left: 19.5px;
+	top: 45px;
+	width: 247px;
+	height: 31.5px;
+	border: 1px solid #cccccc;
+}
+#span6_6 {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	font-size: 15.65px;
+	color: #6e6e6e;
+}
+#div6_2 {
+	position: absolute;
+	left: 19.5px;
+	top: 78px;
+	width: 247px;
+	height: 31.5px;
+	border: 1px solid #cccccc;
+}
+#span6_7 {
+	position: absolute;
+	left: 5px;
+	top: 7px;
+	font-size: 15px;
+}
+/*第三部分*/
+#span6_8 {
+	position: absolute;
+	left: 24px;
+	top: 120px;
+	font-size: 15px;
+}
+#span6_9 {
+	position: absolute;
+	left: 76px;
+	top: 119px;
+	font-weight: bold;
+	font-size: 17.7px;
+	color: #ff6716;
+}
+#div6_3 {
+	position: absolute;
+	left: 18px;
+	top: 150px;
+	width: 89px;
+	height: 34px;
+	font-weight: bold;
+	border-radius: 4px;
+	font-size: 17.7px;
+	background: #fd471f;
+	border: 1px solid #fd471f;
+}
+#span6_10 {
+	position: absolute;
+	left: 12px;
+	top: 6px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}
+#span6_11 {
+	position: absolute;
+	top: -10px;
+	width: 90px;
+	height: 10px;
+	background: #fff;
+}

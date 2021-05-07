@@ -1,0 +1,93 @@
+
+/************************练习一***************************/
+.g-project8_1 {
+    /*position: relative;*/
+    width: 800px;
+    height: 404px;
+    background: #e1e1e1;
+}
+
+.g-project8_1 div {
+    width: 800px;
+    height: 404px;
+    position: absolute;
+}
+
+.u-img {
+    width: calc( (100% - 50px)/4);
+    margin: 10px 0 0 10px;
+    float: left;
+}
+
+.u-amp {
+    width: 404px;
+    margin: 0 0 0 25%;
+}
+
+
+/************************练习二***************************/
+.g-project8_2 {
+    width: 600px;
+    height: 627px;
+    margin: 50px 0 0 0;
+    background: #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+
+.m-nav span {
+    background: #fff;
+    height: 25px;
+    width: 110px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 0;
+    float: left;
+}
+
+.m-page img{
+    clear: left;
+    float: left;
+    width: 600px;
+}
+
+
+/************************练习三***************************/
+.g-project8_3 {
+    width: 400px;
+    padding: 25px 10px 25px 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    background: #e1e1e1;
+}
+
+.m-data {
+    background: #fff;
+    height: 40px;
+    margin: 0 0 25px 0;
+    border: 1px solid #000;
+}
+
+.m-data div {
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    float: left;
+}
+
+.m-data div + div {
+    border-left: 1px solid #000;
+    width: 258px;
+}
+
+.m-data > div:nth-child(3) {
+    width: 98px;
+}
+
+.u-btn {
+    width: 96px;
+    background: green;
+    margin: 25px 0 0 300px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
